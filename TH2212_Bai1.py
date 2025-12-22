@@ -5,5 +5,5 @@ if h>=100 or w<=0:
 else:
     C=(h+w)*2
     S=h*w
-print("Chu vi hcn:",round(C))
-print("Diện tích hcn:",round(S))
+print("Chu vi hcn:",round(C,2))
+print("Diện tích hcn:",round(S,2))
