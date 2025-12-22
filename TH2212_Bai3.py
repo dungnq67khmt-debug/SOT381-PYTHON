@@ -5,9 +5,9 @@ if maxx<b :
     maxx=b
 if maxx<c:
     maxx=c
-print(maxx)
+print("Giá trị lớn nhất:",maxx)
 if minx>b:
     minx=b
 if minx>c:
     minx=c
-print(minx)
+print("Giá trị nhỏ nhất:",minx)
