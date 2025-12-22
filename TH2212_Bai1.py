@@ -1,9 +1,11 @@
 h=float(input("Nhập chiều dài hcn:"))
 w=float(input("Nhập chiều rộng hcn:"))
-if h>=100 or w<=0:
-    print("vui lòng nhập lại")
-else:
-    C=(h+w)*2
-    S=h*w
+while True:
+    h=float(input("Nhập chiều dài hcn:"))
+    w=float(input("Nhập chiều rộng hcn:"))
+    if w>=0 and h<=100:
+        C=(h+w)*2
+        S=h*w
+        break
 print("Chu vi hcn:",round(C,2))
 print("Diện tích hcn:",round(S,2))
