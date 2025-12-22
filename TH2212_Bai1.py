@@ -1,5 +1,3 @@
-h=float(input("Nhập chiều dài hcn:"))
-w=float(input("Nhập chiều rộng hcn:"))
 while True:
     h=float(input("Nhập chiều dài hcn:"))
     w=float(input("Nhập chiều rộng hcn:"))
