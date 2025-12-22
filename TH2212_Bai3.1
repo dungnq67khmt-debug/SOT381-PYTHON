@@ -1,0 +1,10 @@
+def GTLN(a,b,c):
+    maxx=a
+    if maxx<b:
+        maxx=b
+    if maxx<c:
+        maxx=c
+    return maxx
+m,n,k=map(int,input("Nhập m,n,k:").split())
+m=GTLN(m,n,k)
+print("Giá trị lớn nhất",m)
